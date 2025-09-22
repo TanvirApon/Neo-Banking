@@ -49,8 +49,3 @@ The system uses a hybrid architecture combining monolithic ASP.NET Core APIs for
 
 ---
 
-## 📥 Installation
-
-1. **Clone the repository:**  
-```bash
-git clone https://github.com/yourusername/neo-banking-system.git
