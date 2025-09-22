@@ -1,0 +1,14 @@
+F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Domain\bin\Debug\net9.0\BankingSystem.Domain.deps.json
+F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Domain\bin\Debug\net9.0\BankingSystem.Domain.dll
+F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Domain\bin\Debug\net9.0\BankingSystem.Domain.pdb
+F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Domain\obj\Debug\net9.0\BankingSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Domain\obj\Debug\net9.0\BankingSystem.Domain.AssemblyInfoInputs.cache
+F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Domain\obj\Debug\net9.0\BankingSystem.Domain.AssemblyInfo.cs
+F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Domain\obj\Debug\net9.0\BankingSystem.Domain.csproj.CoreCompileInputs.cache
+F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Domain\obj\Debug\net9.0\BankingSystem.Domain.dll
+F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Domain\obj\Debug\net9.0\refint\BankingSystem.Domain.dll
+F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Domain\obj\Debug\net9.0\BankingSystem.Domain.pdb
+F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Domain\obj\Debug\net9.0\ref\BankingSystem.Domain.dll
+F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Domain\bin\Debug\net9.0\BankingSystem.Domain.runtimeconfig.json
+F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Domain\obj\Debug\net9.0\BankingSystem.Domain.csproj.AssemblyReference.cache
+F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Domain\obj\Debug\net9.0\BankingSystem.Domain.genruntimeconfig.cache

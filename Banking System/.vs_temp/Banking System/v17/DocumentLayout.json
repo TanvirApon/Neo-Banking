@@ -1,0 +1,292 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Projects Full Stacks\\Neo Banking\\Banking System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B07FA99E-06DF-4447-8855-EB58D3151900}|BankingSystem.Application\\BankingSystem.Application.csproj|f:\\projects full stacks\\neo banking\\banking system\\bankingsystem.application\\bankingsystem.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B07FA99E-06DF-4447-8855-EB58D3151900}|BankingSystem.Application\\BankingSystem.Application.csproj|solutionrelative:bankingsystem.application\\bankingsystem.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C32535-EDB2-47A4-B65B-99EE822265C1}|BankingSystem.Infrastructure\\BankingSystem.Infrastructure.csproj|f:\\projects full stacks\\neo banking\\banking system\\bankingsystem.infrastructure\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C32535-EDB2-47A4-B65B-99EE822265C1}|BankingSystem.Infrastructure\\BankingSystem.Infrastructure.csproj|solutionrelative:bankingsystem.infrastructure\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B07FA99E-06DF-4447-8855-EB58D3151900}|BankingSystem.Application\\BankingSystem.Application.csproj|f:\\projects full stacks\\neo banking\\banking system\\bankingsystem.application\\interfaces\\users\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B07FA99E-06DF-4447-8855-EB58D3151900}|BankingSystem.Application\\BankingSystem.Application.csproj|solutionrelative:bankingsystem.application\\interfaces\\users\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B07FA99E-06DF-4447-8855-EB58D3151900}|BankingSystem.Application\\BankingSystem.Application.csproj|f:\\projects full stacks\\neo banking\\banking system\\bankingsystem.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B07FA99E-06DF-4447-8855-EB58D3151900}|BankingSystem.Application\\BankingSystem.Application.csproj|solutionrelative:bankingsystem.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B07FA99E-06DF-4447-8855-EB58D3151900}|BankingSystem.Application\\BankingSystem.Application.csproj|f:\\projects full stacks\\neo banking\\banking system\\bankingsystem.application\\interfaces\\users\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B07FA99E-06DF-4447-8855-EB58D3151900}|BankingSystem.Application\\BankingSystem.Application.csproj|solutionrelative:bankingsystem.application\\interfaces\\users\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B07FA99E-06DF-4447-8855-EB58D3151900}|BankingSystem.Application\\BankingSystem.Application.csproj|f:\\projects full stacks\\neo banking\\banking system\\bankingsystem.application\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B07FA99E-06DF-4447-8855-EB58D3151900}|BankingSystem.Application\\BankingSystem.Application.csproj|solutionrelative:bankingsystem.application\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FD0410A-A4D6-4A90-A117-73FE7763A1B6}|BankingSystem.Domain\\BankingSystem.Domain.csproj|f:\\projects full stacks\\neo banking\\banking system\\bankingsystem.domain\\entitiesnew\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FD0410A-A4D6-4A90-A117-73FE7763A1B6}|BankingSystem.Domain\\BankingSystem.Domain.csproj|solutionrelative:bankingsystem.domain\\entitiesnew\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B07FA99E-06DF-4447-8855-EB58D3151900}|BankingSystem.Application\\BankingSystem.Application.csproj|f:\\projects full stacks\\neo banking\\banking system\\bankingsystem.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B07FA99E-06DF-4447-8855-EB58D3151900}|BankingSystem.Application\\BankingSystem.Application.csproj|solutionrelative:bankingsystem.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C32535-EDB2-47A4-B65B-99EE822265C1}|BankingSystem.Infrastructure\\BankingSystem.Infrastructure.csproj|f:\\projects full stacks\\neo banking\\banking system\\bankingsystem.infrastructure\\bankingsystem.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{24C32535-EDB2-47A4-B65B-99EE822265C1}|BankingSystem.Infrastructure\\BankingSystem.Infrastructure.csproj|solutionrelative:bankingsystem.infrastructure\\bankingsystem.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{974BE868-852D-42FB-901C-BC2CF3EC8BE4}|Banking System\\Banking System.csproj|f:\\projects full stacks\\neo banking\\banking system\\banking system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{974BE868-852D-42FB-901C-BC2CF3EC8BE4}|Banking System\\Banking System.csproj|solutionrelative:banking system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{974BE868-852D-42FB-901C-BC2CF3EC8BE4}|Banking System\\Banking System.csproj|f:\\projects full stacks\\neo banking\\banking system\\banking system\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{974BE868-852D-42FB-901C-BC2CF3EC8BE4}|Banking System\\Banking System.csproj|solutionrelative:banking system\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{974BE868-852D-42FB-901C-BC2CF3EC8BE4}|Banking System\\Banking System.csproj|f:\\projects full stacks\\neo banking\\banking system\\banking system\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{974BE868-852D-42FB-901C-BC2CF3EC8BE4}|Banking System\\Banking System.csproj|solutionrelative:banking system\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{974BE868-852D-42FB-901C-BC2CF3EC8BE4}|Banking System\\Banking System.csproj|f:\\projects full stacks\\neo banking\\banking system\\banking system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{974BE868-852D-42FB-901C-BC2CF3EC8BE4}|Banking System\\Banking System.csproj|solutionrelative:banking system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C32535-EDB2-47A4-B65B-99EE822265C1}|BankingSystem.Infrastructure\\BankingSystem.Infrastructure.csproj|f:\\projects full stacks\\neo banking\\banking system\\bankingsystem.infrastructure\\bankingsystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C32535-EDB2-47A4-B65B-99EE822265C1}|BankingSystem.Infrastructure\\BankingSystem.Infrastructure.csproj|solutionrelative:bankingsystem.infrastructure\\bankingsystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{974BE868-852D-42FB-901C-BC2CF3EC8BE4}|Banking System\\Banking System.csproj|f:\\projects full stacks\\neo banking\\banking system\\banking system\\banking system.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{974BE868-852D-42FB-901C-BC2CF3EC8BE4}|Banking System\\Banking System.csproj|solutionrelative:banking system\\banking system.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FD0410A-A4D6-4A90-A117-73FE7763A1B6}|BankingSystem.Domain\\BankingSystem.Domain.csproj|f:\\projects full stacks\\neo banking\\banking system\\bankingsystem.domain\\bankingsystem.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0FD0410A-A4D6-4A90-A117-73FE7763A1B6}|BankingSystem.Domain\\BankingSystem.Domain.csproj|solutionrelative:bankingsystem.domain\\bankingsystem.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "F:\\Projects Full Stacks\\Neo Banking\\Banking System\\BankingSystem.Application\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "BankingSystem.Application\\MappingProfile.cs",
+              "ToolTip": "F:\\Projects Full Stacks\\Neo Banking\\Banking System\\BankingSystem.Application\\MappingProfile.cs",
+              "RelativeToolTip": "BankingSystem.Application\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T15:01:03.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "F:\\Projects Full Stacks\\Neo Banking\\Banking System\\BankingSystem.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "BankingSystem.Application\\Services\\UserService.cs",
+              "ToolTip": "F:\\Projects Full Stacks\\Neo Banking\\Banking System\\BankingSystem.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "BankingSystem.Application\\Services\\UserService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T13:39:21.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "F:\\Projects Full Stacks\\Neo Banking\\Banking System\\BankingSystem.Application\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "BankingSystem.Application\\DTOs\\UserDto.cs",
+              "ToolTip": "F:\\Projects Full Stacks\\Neo Banking\\Banking System\\BankingSystem.Application\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "BankingSystem.Application\\DTOs\\UserDto.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA3wCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T13:15:51.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "F:\\Projects Full Stacks\\Neo Banking\\Banking System\\BankingSystem.Application\\Interfaces\\Users\\IUserService.cs",
+              "RelativeDocumentMoniker": "BankingSystem.Application\\Interfaces\\Users\\IUserService.cs",
+              "ToolTip": "F:\\Projects Full Stacks\\Neo Banking\\Banking System\\BankingSystem.Application\\Interfaces\\Users\\IUserService.cs",
+              "RelativeToolTip": "BankingSystem.Application\\Interfaces\\Users\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T13:13:59.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "F:\\Projects Full Stacks\\Neo Banking\\Banking System\\BankingSystem.Infrastructure\\UserRepository.cs",
+              "RelativeDocumentMoniker": "BankingSystem.Infrastructure\\UserRepository.cs",
+              "ToolTip": "F:\\Projects Full Stacks\\Neo Banking\\Banking System\\BankingSystem.Infrastructure\\UserRepository.cs",
+              "RelativeToolTip": "BankingSystem.Infrastructure\\UserRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T11:44:37.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "F:\\Projects Full Stacks\\Neo Banking\\Banking System\\BankingSystem.Domain\\EntitiesNew\\User.cs",
+              "RelativeDocumentMoniker": "BankingSystem.Domain\\EntitiesNew\\User.cs",
+              "ToolTip": "F:\\Projects Full Stacks\\Neo Banking\\Banking System\\BankingSystem.Domain\\EntitiesNew\\User.cs",
+              "RelativeToolTip": "BankingSystem.Domain\\EntitiesNew\\User.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAywBgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T11:43:29.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "F:\\Projects Full Stacks\\Neo Banking\\Banking System\\BankingSystem.Application\\Interfaces\\Users\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "BankingSystem.Application\\Interfaces\\Users\\IUserRepository.cs",
+              "ToolTip": "F:\\Projects Full Stacks\\Neo Banking\\Banking System\\BankingSystem.Application\\Interfaces\\Users\\IUserRepository.cs",
+              "RelativeToolTip": "BankingSystem.Application\\Interfaces\\Users\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T11:34:21.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BankingSystem.Application",
+              "DocumentMoniker": "F:\\Projects Full Stacks\\Neo Banking\\Banking System\\BankingSystem.Application\\BankingSystem.Application.csproj",
+              "RelativeDocumentMoniker": "BankingSystem.Application\\BankingSystem.Application.csproj",
+              "ToolTip": "F:\\Projects Full Stacks\\Neo Banking\\Banking System\\BankingSystem.Application\\BankingSystem.Application.csproj",
+              "RelativeToolTip": "BankingSystem.Application\\BankingSystem.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-22T08:26:46.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Projects Full Stacks\\Neo Banking\\Banking System\\Banking System\\Program.cs",
+              "RelativeDocumentMoniker": "Banking System\\Program.cs",
+              "ToolTip": "F:\\Projects Full Stacks\\Neo Banking\\Banking System\\Banking System\\Program.cs",
+              "RelativeToolTip": "Banking System\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T09:30:23.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\Projects Full Stacks\\Neo Banking\\Banking System\\Banking System\\appsettings.json",
+              "RelativeDocumentMoniker": "Banking System\\appsettings.json",
+              "ToolTip": "F:\\Projects Full Stacks\\Neo Banking\\Banking System\\Banking System\\appsettings.json",
+              "RelativeToolTip": "Banking System\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-22T09:24:45.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "F:\\Projects Full Stacks\\Neo Banking\\Banking System\\Banking System\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Banking System\\appsettings.Development.json",
+              "ToolTip": "F:\\Projects Full Stacks\\Neo Banking\\Banking System\\Banking System\\appsettings.Development.json",
+              "RelativeToolTip": "Banking System\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-22T09:25:05.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BankingSystemContext.cs",
+              "DocumentMoniker": "F:\\Projects Full Stacks\\Neo Banking\\Banking System\\BankingSystem.Infrastructure\\BankingSystemContext.cs",
+              "RelativeDocumentMoniker": "BankingSystem.Infrastructure\\BankingSystemContext.cs",
+              "ToolTip": "F:\\Projects Full Stacks\\Neo Banking\\Banking System\\BankingSystem.Infrastructure\\BankingSystemContext.cs",
+              "RelativeToolTip": "BankingSystem.Infrastructure\\BankingSystemContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T09:18:31.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BankingSystem.Infrastructure",
+              "DocumentMoniker": "F:\\Projects Full Stacks\\Neo Banking\\Banking System\\BankingSystem.Infrastructure\\BankingSystem.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "BankingSystem.Infrastructure\\BankingSystem.Infrastructure.csproj",
+              "ToolTip": "F:\\Projects Full Stacks\\Neo Banking\\Banking System\\BankingSystem.Infrastructure\\BankingSystem.Infrastructure.csproj",
+              "RelativeToolTip": "BankingSystem.Infrastructure\\BankingSystem.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-22T08:28:10.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "F:\\Projects Full Stacks\\Neo Banking\\Banking System\\Banking System\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Banking System\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "F:\\Projects Full Stacks\\Neo Banking\\Banking System\\Banking System\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Banking System\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T09:34:49.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BankingSystem.Domain",
+              "DocumentMoniker": "F:\\Projects Full Stacks\\Neo Banking\\Banking System\\BankingSystem.Domain\\BankingSystem.Domain.csproj",
+              "RelativeDocumentMoniker": "BankingSystem.Domain\\BankingSystem.Domain.csproj",
+              "ToolTip": "F:\\Projects Full Stacks\\Neo Banking\\Banking System\\BankingSystem.Domain\\BankingSystem.Domain.csproj",
+              "RelativeToolTip": "BankingSystem.Domain\\BankingSystem.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-22T08:27:51.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Banking System",
+              "DocumentMoniker": "F:\\Projects Full Stacks\\Neo Banking\\Banking System\\Banking System\\Banking System.csproj",
+              "RelativeDocumentMoniker": "Banking System\\Banking System.csproj",
+              "ToolTip": "F:\\Projects Full Stacks\\Neo Banking\\Banking System\\Banking System\\Banking System.csproj",
+              "RelativeToolTip": "Banking System\\Banking System.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-22T08:25:53.807Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Application\bin\Debug\net9.0\BankingSystem.Application.deps.json
+F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Application\bin\Debug\net9.0\BankingSystem.Application.dll
+F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Application\bin\Debug\net9.0\BankingSystem.Application.pdb
+F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Application\bin\Debug\net9.0\BankingSystem.Domain.dll
+F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Application\bin\Debug\net9.0\BankingSystem.Domain.pdb
+F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Application\obj\Debug\net9.0\BankingSystem.Application.csproj.AssemblyReference.cache
+F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Application\obj\Debug\net9.0\BankingSystem.Application.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Application\obj\Debug\net9.0\BankingSystem.Application.AssemblyInfoInputs.cache
+F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Application\obj\Debug\net9.0\BankingSystem.Application.AssemblyInfo.cs
+F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Application\obj\Debug\net9.0\BankingSystem.Application.csproj.CoreCompileInputs.cache
+F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Application\obj\Debug\net9.0\BankingS.874C6E35.Up2Date
+F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Application\obj\Debug\net9.0\BankingSystem.Application.dll
+F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Application\obj\Debug\net9.0\refint\BankingSystem.Application.dll
+F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Application\obj\Debug\net9.0\BankingSystem.Application.pdb
+F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Application\obj\Debug\net9.0\ref\BankingSystem.Application.dll

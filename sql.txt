@@ -1,0 +1,56 @@
+-- 1. Database Create
+CREATE DATABASE BankingSystem;
+GO
+
+-- 2. Use BankingSystem
+USE BankingSystem;
+GO
+
+-- 3. Users Table
+CREATE TABLE Users (
+    user_id BIGINT IDENTITY(1,1) PRIMARY KEY,
+    full_name NVARCHAR(100) NOT NULL,
+    email NVARCHAR(100) UNIQUE NOT NULL,
+    phone NVARCHAR(20) UNIQUE NOT NULL,
+    created_at DATETIME DEFAULT GETDATE()
+);
+
+-- 4. Accounts Table
+CREATE TABLE Accounts (
+    account_id BIGINT IDENTITY(1,1) PRIMARY KEY,
+    user_id BIGINT NOT NULL,
+    account_number NVARCHAR(20) UNIQUE NOT NULL,
+    balance DECIMAL(15,2) DEFAULT 0.00,
+    account_type NVARCHAR(20) CHECK (account_type IN ('Savings','Checking','Business')),
+    created_at DATETIME DEFAULT GETDATE(),
+    CONSTRAINT fk_user FOREIGN KEY (user_id) REFERENCES Users(user_id)
+);
+
+-- 5. Transactions Table
+CREATE TABLE Transactions (
+    transaction_id BIGINT IDENTITY(1,1) PRIMARY KEY,
+    account_id BIGINT NOT NULL,
+    amount DECIMAL(15,2) NOT NULL,
+    transaction_type NVARCHAR(20) CHECK (transaction_type IN ('Deposit','Withdraw','Transfer')),
+    created_at DATETIME DEFAULT GETDATE(),
+    CONSTRAINT fk_account FOREIGN KEY (account_id) REFERENCES Accounts(account_id)
+);
+
+-- 6. FraudLogs Table
+CREATE TABLE FraudLogs (
+    fraud_id BIGINT IDENTITY(1,1) PRIMARY KEY,
+    transaction_id BIGINT UNIQUE,
+    reason NVARCHAR(255),
+    created_at DATETIME DEFAULT GETDATE(),
+    CONSTRAINT fk_transaction FOREIGN KEY (transaction_id) REFERENCES Transactions(transaction_id)
+);
+
+-- 7. Notifications Table
+CREATE TABLE Notifications (
+    notification_id BIGINT IDENTITY(1,1) PRIMARY KEY,
+    user_id BIGINT NOT NULL,
+    message NVARCHAR(255) NOT NULL,
+    is_read BIT DEFAULT 0,
+    created_at DATETIME DEFAULT GETDATE(),
+    CONSTRAINT fk_notify_user FOREIGN KEY (user_id) REFERENCES Users(user_id)
+);
