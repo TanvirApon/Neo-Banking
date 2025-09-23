@@ -1,0 +1,29 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+Debug/
+Release/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.vsidx
+*.vscode/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+
+# Logs
+*.log
+
+# Generated files
+*.cache
+*.pdb
+*.exe
+*.dll
+
+# Others
+*.sourcelink.json

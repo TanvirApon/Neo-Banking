@@ -1,4 +1,9 @@
+using BankingSystem.Application;
+using BankingSystem.Application.DTO_Validators;
+using BankingSystem.Application.Interfaces.Users;
+using BankingSystem.Application.Services;
 using BankingSystem.Infrastructure;
+using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
 
@@ -17,6 +22,14 @@ builder.Services.AddDbContext<BankingSystemContext>(options =>
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
+
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IUserService, UserService>();
+
+
+builder.Services.AddValidatorsFromAssemblyContaining<CreateUserDtoValidator>();
+builder.Services.AddValidatorsFromAssemblyContaining<UpdateDtoValidator>();
+builder.Services.AddAutoMapper(typeof(MappingProfile));
 
 var app = builder.Build();
 

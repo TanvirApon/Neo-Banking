@@ -32,6 +32,7 @@ namespace BankingSystem.Infrastructure
         {
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
+            
         }
 
         public async Task UpdateUserAsync(User user)
@@ -42,8 +43,12 @@ namespace BankingSystem.Infrastructure
 
         public async Task DeleteUserAsync(long userId)
         {
-            _context.Users.Remove(new User { UserId = userId });
-            await _context.SaveChangesAsync();
+           var course = await _context.Users.FindAsync(userId);
+            if (course != null)
+            {
+                _context.Users.Remove(course);
+                await _context.SaveChangesAsync();
+            }
         }
     }
 }

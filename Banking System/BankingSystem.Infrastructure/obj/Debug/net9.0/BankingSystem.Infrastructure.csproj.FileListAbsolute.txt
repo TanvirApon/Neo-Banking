@@ -17,3 +17,4 @@ F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Infrastructure\
 F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Infrastructure\obj\Debug\net9.0\ref\BankingSystem.Infrastructure.dll
 F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Infrastructure\bin\Debug\net9.0\BankingSystem.Infrastructure.runtimeconfig.json
 F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Infrastructure\obj\Debug\net9.0\BankingSystem.Infrastructure.genruntimeconfig.cache
+F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Infrastructure\obj\Debug\net9.0\BankingSystem.Infrastructure.sourcelink.json

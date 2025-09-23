@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using BankingSystem.Application.DTOs;
 using BankingSystem.Domain.EntitiesNew;
 using System;
 using System.Collections.Generic;
@@ -12,7 +13,9 @@ namespace BankingSystem.Application
     {
         public MappingProfile()
         {
-           CreateMap<User, DTOs.UserDto>().ReverseMap();
+           CreateMap<User, UserDto>().ReverseMap();
+            CreateMap<CreateUserDto, User>();
+            CreateMap<UpdateUserDto, User>();
         }
     }
 }

@@ -13,3 +13,4 @@ F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Application\obj
 F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Application\obj\Debug\net9.0\refint\BankingSystem.Application.dll
 F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Application\obj\Debug\net9.0\BankingSystem.Application.pdb
 F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Application\obj\Debug\net9.0\ref\BankingSystem.Application.dll
+F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Application\obj\Debug\net9.0\BankingSystem.Application.sourcelink.json

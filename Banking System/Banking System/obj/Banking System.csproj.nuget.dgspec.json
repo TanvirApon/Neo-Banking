@@ -234,6 +234,10 @@
               "target": "Package",
               "version": "[1.0.1, )"
             },
+            "SolrNet.Core": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
             "System.Security.Cryptography.Xml": {
               "target": "Package",
               "version": "[9.0.1, )"

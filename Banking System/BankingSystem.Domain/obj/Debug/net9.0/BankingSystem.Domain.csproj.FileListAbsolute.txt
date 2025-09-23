@@ -12,3 +12,4 @@ F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Domain\obj\Debu
 F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Domain\bin\Debug\net9.0\BankingSystem.Domain.runtimeconfig.json
 F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Domain\obj\Debug\net9.0\BankingSystem.Domain.csproj.AssemblyReference.cache
 F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Domain\obj\Debug\net9.0\BankingSystem.Domain.genruntimeconfig.cache
+F:\Projects Full Stacks\Neo Banking\Banking System\BankingSystem.Domain\obj\Debug\net9.0\BankingSystem.Domain.sourcelink.json
