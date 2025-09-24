@@ -43,10 +43,10 @@ namespace BankingSystem.Infrastructure
 
         public async Task DeleteUserAsync(long userId)
         {
-           var course = await _context.Users.FindAsync(userId);
-            if (course != null)
+           var user = await _context.Users.FindAsync(userId);
+            if (user != null)
             {
-                _context.Users.Remove(course);
+                _context.Users.Remove(user);
                 await _context.SaveChangesAsync();
             }
         }

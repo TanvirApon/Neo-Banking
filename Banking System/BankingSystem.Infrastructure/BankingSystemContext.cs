@@ -22,7 +22,7 @@ public partial class BankingSystemContext : DbContext
 
     public virtual DbSet<Notification> Notifications { get; set; }
 
-    public virtual DbSet<Transaction> Transactions { get; set; }
+    public virtual DbSet<TransactionEntity> Transactions { get; set; }
 
     public virtual DbSet<User> Users { get; set; }
 
@@ -68,7 +68,7 @@ public partial class BankingSystemContext : DbContext
                 .HasConstraintName("fk_notification_user");
         });
 
-        modelBuilder.Entity<Transaction>(entity =>
+        modelBuilder.Entity<TransactionEntity>(entity =>
         {
             entity.HasKey(e => e.TransactionId).HasName("PK__Transact__85C600AF2CA00630");
 

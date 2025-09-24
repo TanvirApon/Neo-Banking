@@ -28,8 +28,8 @@ public partial class FraudLog
 
     [ForeignKey("TransactionId")]
     [InverseProperty("FraudLog")]
-    public virtual Transaction Transaction { get; set; } = null!;
+    public virtual TransactionEntity Transaction { get; set; } = null!;
 
     [InverseProperty("FraudLogNavigation")]
-    public virtual ICollection<Transaction> Transactions { get; set; } = new List<Transaction>();
+    public virtual ICollection<TransactionEntity> Transactions { get; set; } = new List<TransactionEntity>();
 }

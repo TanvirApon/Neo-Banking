@@ -14,8 +14,18 @@ namespace BankingSystem.Application
         public MappingProfile()
         {
            CreateMap<User, UserDto>().ReverseMap();
-            CreateMap<CreateUserDto, User>();
-            CreateMap<UpdateUserDto, User>();
+           CreateMap<CreateUserDto, User>();
+           CreateMap<UpdateUserDto, User>();
+
+           CreateMap<Account, AccountDto>().ReverseMap();
+           CreateMap<CreateAccountDto, Account>();
+           CreateMap<UpdateAccountDto, Account>();
+
+           CreateMap<NotificationDto, Notification>().ReverseMap();
+           CreateMap<CreateNotificationDto, Notification>();
+           CreateMap<UpdateNotificationDto, Notification>();
+
+
         }
     }
 }

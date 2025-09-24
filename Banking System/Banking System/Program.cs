@@ -1,5 +1,6 @@
 using BankingSystem.Application;
 using BankingSystem.Application.DTO_Validators;
+using BankingSystem.Application.Interfaces.Accounts;
 using BankingSystem.Application.Interfaces.Users;
 using BankingSystem.Application.Services;
 using BankingSystem.Infrastructure;
@@ -25,10 +26,17 @@ builder.Services.AddOpenApi();
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IAccountRepository, AccountRepository>();
+builder.Services.AddScoped<IAccountService, AccountService>();
+
 
 
 builder.Services.AddValidatorsFromAssemblyContaining<CreateUserDtoValidator>();
 builder.Services.AddValidatorsFromAssemblyContaining<UpdateDtoValidator>();
+builder.Services.AddValidatorsFromAssemblyContaining<CreateAccountDtoValidator>();
+builder.Services.AddValidatorsFromAssemblyContaining<UpdateAccountDtoValidator>();
+builder.Services.AddValidatorsFromAssemblyContaining<DepositeDtoValidator>();
+builder.Services.AddValidatorsFromAssemblyContaining<WithdrawDtoValidator>();
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 
 var app = builder.Build();

@@ -15,7 +15,5 @@ namespace BankingSystem.Application.Interfaces.Users
        Task UpdateUserAsync(User user);
        Task DeleteUserAsync(long userId);
 
-
-
     }
 }
