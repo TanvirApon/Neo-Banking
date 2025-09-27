@@ -1,0 +1,124 @@
+<header class="navbar navbar-dark sticky-top bg-primary flex-md-nowrap p-0 shadow">
+    <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6" href="#">Admin Panel</a>
+    <div class="navbar-nav flex-row ms-auto">
+      <button class="nav-link px-3 text-white" type="button">
+        <i class="bi bi-bell"></i>
+      </button>
+      <button class="nav-link px-3 text-white" type="button">
+        <i class="bi bi-person-circle"></i>
+      </button>
+    </div>
+  </header>
+
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Sidebar -->
+      <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+        <div class="position-sticky pt-3">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="#"><i class="bi bi-speedometer2 me-2"></i>Dashboard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="bi bi-people me-2"></i>Users</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="bi bi-wallet2 me-2"></i>Wallets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="bi bi-file-earmark-text me-2"></i>Transactions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="bi bi-graph-up me-2"></i>Reports</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="bi bi-gear me-2"></i>Settings</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Main Content -->
+      <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+          <h1 class="h2">Dashboard</h1>
+        </div>
+
+        <!-- Summary Cards -->
+        <div class="row mb-4">
+          <div class="col-md-3">
+            <div class="card text-white bg-primary mb-3 shadow">
+              <div class="card-body">
+                <h5 class="card-title">Users</h5>
+                <p class="card-text fs-4">120</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-white bg-success mb-3 shadow">
+              <div class="card-body">
+                <h5 class="card-title">Wallets</h5>
+                <p class="card-text fs-4">75</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-white bg-warning mb-3 shadow">
+              <div class="card-body">
+                <h5 class="card-title">Transactions</h5>
+                <p class="card-text fs-4">350</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-white bg-danger mb-3 shadow">
+              <div class="card-body">
+                <h5 class="card-title">Reports</h5>
+                <p class="card-text fs-4">25</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Transactions Table -->
+        <h4>Recent Transactions</h4>
+        <div class="table-responsive">
+          <table class="table table-striped table-hover table-bordered">
+            <thead class="table-light">
+              <tr>
+                <th>#</th>
+                <th>Account ID</th>
+                <th>Amount</th>
+                <th>Type</th>
+                <th>Date</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>101</td>
+                <td>$500.00</td>
+                <td>Deposit</td>
+                <td>2025-09-27 14:35</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>102</td>
+                <td>$200.00</td>
+                <td>Withdraw</td>
+                <td>2025-09-27 15:10</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>101</td>
+                <td>$100.00</td>
+                <td>Transfer</td>
+                <td>2025-09-27 16:20</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </main>
+    </div>
+  </div>
+

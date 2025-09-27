@@ -31,7 +31,7 @@ public partial class Account
     public DateTime? CreatedAt { get; set; }
 
     [InverseProperty("Account")]
-    public virtual ICollection<TransactionEntity> Transactions { get; set; } = new List<TransactionEntity>();
+    public virtual ICollection<Transaction> Transactions { get; set; } = new List<Transaction>();
 
     [ForeignKey("UserId")]
     [InverseProperty("Accounts")]

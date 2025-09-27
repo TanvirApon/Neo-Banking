@@ -1,0 +1,100 @@
+<header class="navbar navbar-dark sticky-top bg-primary flex-md-nowrap p-0 shadow">
+    <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6" href="#">Neo Baking</a>
+    <div class="navbar-nav flex-row d-md-none ms-auto">
+      <button class="nav-link px-3 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSearch" aria-controls="navbarSearch" aria-expanded="false" aria-label="Toggle search">
+        <i class="bi bi-search"></i>
+      </button>
+      <button class="nav-link px-3 text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu">
+        <i class="bi bi-list"></i>
+      </button>
+    </div>
+    <div id="navbarSearch" class="collapse w-100">
+      <input class="form-control w-100 rounded-0 border-0" type="text" placeholder="Search" aria-label="Search">
+    </div>
+  </header>
+
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Sidebar -->
+      <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse offcanvas-md mt-5 ">
+        <div class="position-sticky pt-3">
+          <ul class="nav flex-column">
+
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="bi bi-file-earmark me-2"></i>Dash Board</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="bi bi-cart me-2"></i>Transaction History</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#"><i class="bi bi-house-fill me-2"></i>My Wallets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="bi bi-people me-2"></i>Add My Digital Wallet</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="bi bi-graph-up me-2"></i>Reports</a>
+            </li>
+
+          </ul>
+
+          <hr>
+          <ul class="nav flex-column mb-auto">
+            <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-gear-wide-connected me-2"></i>Profile</a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-door-closed me-2"></i>Sign out</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Main Content -->
+      <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+          <h1 class="h2">Transaction Form</h1>
+        </div>
+        <div class="d-flex justify-content-center align-items-center" style="">
+          <div class="card text-center p-4 shadow" style="width: 500px;">
+            <h5 class="card-title">Welcome to Neo Baking!</h5>
+           <div class="card p-4 shadow" style=" margin: auto;">
+              <form>
+                <!-- Source Account -->
+                <div class="mb-3">
+                  <label for="sourceAccount" class="form-label">Source Account</label>
+                  <input type="number" class="form-control" id="sourceAccount" placeholder="Enter your account ID" required>
+                </div>
+
+                <!-- Destination Account -->
+                <div class="mb-3">
+                  <label for="destinationAccount" class="form-label">Destination Account</label>
+                  <input type="number" class="form-control" id="destinationAccount" placeholder="Enter destination account ID" required>
+                </div>
+
+                <!-- Transaction Type -->
+                <div class="mb-3">
+                  <label for="transactionType" class="form-label">Transaction Type</label>
+                  <select class="form-select" id="transactionType" required>
+                    <option value="">Select transaction type</option>
+                    <option value="Deposit">Deposit</option>
+                    <option value="Withdraw">Withdraw</option>
+                    <option value="Transfer">Transfer</option>
+                  </select>
+                </div>
+
+                <!-- Amount -->
+                <div class="mb-3">
+                  <label for="amount" class="form-label">Amount</label>
+                  <input type="number" class="form-control" id="amount" placeholder="Enter amount" step="0.01" required>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn btn-primary w-100">Submit Transaction</button>
+              </form>
+            </div>
+          </div>
+          </div>
+      </main>
+       <!-- Centered Content -->
+
+    </div>
+  </div>
+
+
